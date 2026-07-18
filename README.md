@@ -20,17 +20,18 @@ Before running the bot, you need to register it on the Discord Developer Portal:
 3. Ensure you have [Node.js](https://nodejs.org/) installed (LTS version recommended).
 
 ### 3. How to Run
-1. Open the extracted folder.
-2. Double-click the **`AVVIA_BOT.bat`** file.
-3. **First-time setup:** 
-   - A black window will open. If it's your first run, it will automatically install the necessary libraries.
-   - It will then ask you to paste your **Discord Bot Token**. Paste it and press Enter.
-   - The bot will create a configuration file (`.env`) automatically.
-4. **Subsequent runs:** Simply double-click `AVVIA_BOT.bat` to start the bot. It will remember your token automatically, so you won't need to enter it again.
+Simply double-click the **`AVVIA_BOT.bat`** file to start the bot.
+
+- **First-time setup:** A black window will open. It will automatically install the necessary libraries and ask you to paste your **Discord Bot Token**. After pasting it, the bot will create a configuration file (`.env`) and start immediately.
+- **Subsequent runs:** You just need to double-click **`AVVIA_BOT.bat`** and the bot will launch instantly using your saved settings.
 
 ## Usage
 Once the bot is online:
 - Use the slash command `/hp-setup` in your server to configure the honeypot trap channel.
+- Any user (except Administrators) who sends a message in that channel will be instantly banned.
+
+---
+*Created by Nicola*
 - Any user (except Administrators) who sends a message in that channel will be instantly banned.
 
 ---
