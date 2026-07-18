@@ -2,22 +2,28 @@
 
 HoneyBot is a lightweight, automated security tool designed to protect your Discord server from spam bots by creating a "honeypot" trap channel. Any non-administrator user who types in this channel will be automatically banned.
 
+## Prerequisites
+Before you begin, ensure you have **Node.js** installed on your computer:
+1. Go to the official [Node.js website](https://nodejs.org/).
+2. Click on the button that says **"LTS"** (Long Term Support) to download the installer.
+3. Open the downloaded file and follow the installation wizard (keep all settings as default: just keep clicking **"Next"**).
+4. Once the installation is finished, it is recommended to restart your computer to ensure everything is set up correctly.
+
 ## How to Set Up
 
 ### 1. Create your Discord Bot
-Before running the bot, you need to register it on the Discord Developer Portal:
+You need to register your bot on the Discord Developer Portal:
 1. Go to the [Discord Developer Portal](https://discord.com/developers/applications).
 2. Click **"New Application"** and give it a name (e.g., HoneyBot).
 3. In the left sidebar, click **"Bot"**.
-4. Under **"Privileged Gateway Intents"**, enable:
-   - **Message Content Intent** (CRITICAL for the bot to read messages).
+4. Under **"Privileged Gateway Intents"**, you MUST enable:
+   - **Message Content Intent** (Required to read messages).
    - **Server Members Intent**.
 5. Click **"Reset Token"** (or "Copy Token") to get your bot's token. **Keep this secret!**
 
 ### 2. Installation
 1. Download the HoneyBot folder as a **.zip** file.
 2. Extract the contents to a folder on your computer.
-3. Ensure you have [Node.js](https://nodejs.org/) installed (LTS version recommended).
 
 ### 3. How to Run
 Simply double-click the **`AVVIA_BOT.bat`** file to start the bot.
@@ -27,8 +33,9 @@ Simply double-click the **`AVVIA_BOT.bat`** file to start the bot.
 
 ## Usage
 Once the bot is online:
+- Invite the bot to your server.
 - Use the slash command `/hp-setup` in your server to configure the honeypot trap channel.
-- Any user (except Administrators) who sends a message in that channel will be instantly banned.
+- Any user (except Administrators) who sends a message in that configured channel will be instantly banned by the bot.
 
 ---
 *Created by DS .nicoki.*
