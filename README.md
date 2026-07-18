@@ -31,8 +31,4 @@ Once the bot is online:
 - Any user (except Administrators) who sends a message in that channel will be instantly banned.
 
 ---
-*Created by Nicola*
-- Any user (except Administrators) who sends a message in that channel will be instantly banned.
-
----
-*Created by [.nicoki.]*# HoneyBot
+*Created by DS .nicoki.*
