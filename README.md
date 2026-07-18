@@ -4,8 +4,8 @@ HoneyBot is a lightweight, automated security tool designed to protect your Disc
 
 ## Prerequisites
 Before you begin, ensure you have **Node.js** installed on your computer:
-1. Go to the official [Node.js website](https://nodejs.org/).
-2. Click on the button that says **"LTS"** (Long Term Support) to download the installer.
+1. Go to the official [Node.js website](https://nodejs.org/en/download).
+2. Click on the button that says Windows Installer (.msi) to download the installer. (I HAVE NOT TRIED ON LINUX OR MACOS)
 3. Open the downloaded file and follow the installation wizard (keep all settings as default: just keep clicking **"Next"**).
 4. Once the installation is finished, it is recommended to restart your computer to ensure everything is set up correctly.
 
